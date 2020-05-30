@@ -1,427 +1,517 @@
 <html>
-<head>
-<title>����������Դ���޹�˾</title>
-<meta name="keywords" content="����������Դ���޹�˾" />
-<meta name="description" content="����������Դ���޹�˾" />
-<link href="static/css/style.css" rel="stylesheet" type="text/css" media="all" />
-<link href="static/css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
-<script src="static/js/jquery.min.js"> </script>
-<script type="text/javascript" src="static/js/move-top.js"></script>
-<script type="text/javascript" src="static/js/easing.js"></script>
-<script type="text/javascript">
-	jQuery(document).ready(function($) {
-		$(".scroll").click(function(event){		
-			event.preventDefault();
-			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
-		});
-	});
-</script>
-</head>
-<body>
-<div id="home" class="header-top">
-	<div class="container">
-		<div class="header-logo">
-		<a href="#" title="�����乲��"><img src="static/picture/logo.png" alt="�����乲��"/></a>
-		</div>
-		<div class="header-sub-text">
-		<h2>����������Դ���޹�˾</h2>
-		<p>��˾ӵ�а���רҵ�����ŶӾ�����ʱ���Ŭ���뷢չ�������Ƴ�һ����û�ʹ�á����ϴ��ڴ�ҵ���ڴ��µĹ�����籦���������䡣ȫ��ӵ��21���г���Ӫ�ֹ�˾��1000�����ϵ��г���Ӫ�Ŷӡ�</p>
-		</div>
-		<div class="header-bottom-grids">
-			<div class="col-md-6 left-grid text-left">
-					<div class="about-nav">
-						<a class="scroll" href="#xiudian_jieshao" title="�����乲��"><span class="nav-icon"> </span><label>���������</label></a>
+	<head>
+		<title>盒力充新能源有限公司</title>
+		<meta name="keywords" content="盒力充新能源有限公司" />
+		<meta name="description" content="盒力充新能源有限公司" />
+		<link href="static/css/style.css" rel="stylesheet" type="text/css" media="all" />
+		<link href="static/css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+		<script src="static/js/jquery.min.js"> </script>
+		<link rel="stylesheet" type="text/css" href="./layui/css/layui.css" />
+		<script type="text/javascript" src="static/js/move-top.js"></script>
+		<script type="text/javascript" src="static/js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event) {
+					event.preventDefault();
+					$('html,body').animate({
+						scrollTop: $(this.hash).offset().top
+					}, 1000);
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<div id="home" class="header-top">
+			<div class="container">
+				<div class="header-logo">
+					<a href="#" title="盒力充共享"><img src="static/picture/logo.png" alt="盒力充共享" /></a>
+				</div>
+				<div class="header-sub-text">
+					<h2>盒力充新能源有限公司</h2>
+					<p>公司拥有百人专业技术团队经过长时间的努力与发展终于研制出一款方便用户使用、符合大众创业万众创新的共享充电宝——盒力充。全国拥有21个市场运营分公司，1000人以上的市场运营团队。</p>
+				</div>
+				<div class="header-bottom-grids">
+					<div class="col-md-6 left-grid text-left">
+						<div class="about-nav">
+							<a class="scroll" href="#xiudian_jieshao" title="盒力充共享"><span class="nav-icon"> </span><label>盒力充介绍</label></a>
+						</div>
+						<div class="about-nav1">
+							<a class="scroll" href="#xiudian_youshi" title="盒力充优势"><span class="nav-icon1"> </span><label>盒力充优势</label></a>
+						</div>
+						<div class="clearfix"> </div>
 					</div>
-					<div class="about-nav1">
-						<a class="scroll" href="#xiudian_youshi" title="����������"><span class="nav-icon1"> </span><label>����������</label></a>
-					</div>
-					<div class="clearfix"> </div>				
-			</div>
-			<div class="col-md-6 right-grid text-right">
-					<div class="about-nav2">
-						<a class="scroll" href="#xiudian_changjing" title="�����䳡��"><span class="nav-icon2"> </span><label>�����䳡��</label></a>
-					</div>
-					<div class="about-nav3">
-						<a class="scroll" href="#contact" title="���������̾���"><span class="nav-icon3"> </span><label>���̾���</label></a>
+					<div class="col-md-6 right-grid text-right">
+						<div class="about-nav2">
+							<a class="scroll" href="#xiudian_changjing" title="盒力充场景"><span class="nav-icon2"> </span><label>盒力充场景</label></a>
+						</div>
+						<div class="about-nav3">
+							<a class="scroll" href="#contact" title="盒力充招商经理"><span class="nav-icon3"> </span><label>招商经理</label></a>
+						</div>
+						<div class="clearfix"> </div>
 					</div>
 					<div class="clearfix"> </div>
-			</div>
-			<div class="clearfix"> </div>
-		</div>
-		<div class="arrow-grid">
-			<div class="arrow">
-				<a class="scroll" href="#header-nav" title="�����乲��-����ͼ��"><span> </span></a>
-			</div>
-		</div>
-	</div>
-</div>
-<div id="header-nav" class="header-nav">
-	 <div class="top-nav">
-		 <nav>
-		 <div class="logo">
-			<a href="#" title="�����乲��"><img src="static/picture/logo2.png" alt="�����乲��" /></a>
-		 </div>
-			<span class="menu"></span>
-			<ul>
-				<li class="active"><a class="scroll" href="#home" title="�����乲��">��ҳ</a></li>
-				<li><a class="scroll" href="#xiudian_jieshao" title="���������">���������</a></li>					
-				<li><a class="scroll" href="#xiudian_youshi" title="����������">����������</a></li>
-				<li><a class="scroll" href="#xiudian_changjing" title="�����䳡��">�����䳡��</a></li>
-				<li class="contact"><a class="scroll" href="#contact" title="���������̾���">���̾���</a></li>
-				<li class="contact" style="float:right;position:absolute;right:10px;"><a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=979594976&site=qq&menu=yes"><img border="0" src="static/picture/qq.png" alt="���˺�����" title="���˺�����"/></a></li>
-				<div class="clearfix"> </div>
-			</ul>
-		 </nav>
-	 </div>
-	 <script>
-	 $("span.menu").click(function(){
-	 $(".top-nav ul").slideToggle("slow" , function(){
-	 });
-	 });
-	 </script>
-	<script src="static/js/myscript.js"> </script>
-</div>
-<div class="content">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-3 content-top-grid">					
-				<sub> </sub>
-				<h3>������籦û�г���</h3>
-				<p>���ܳ��Ų����ֻ���<br />
-������ס�����ֻ���<br />
-���ܱ��ϱ��˲�����ϵ�㣿<br />
-����һֱ����籦���������<br />
-���ܵ�һʱ���ҵ���������<br />
-�̼��������ڰ�̨��ѳ䣿<br />
-<br />
-�ֻ�û���Һ����䣬5���1�뻹�������˹�����ָ�������ɽ����ɻ���</p>
-			</div>
-			<div class="col-md-3 content-top-grid">					
-				<span> </span>
-				<h3>��������ʿ��</h3>
-				<p>1.�����ÿ��Լ������ǵģ�<br />
-2.��籦֧����ع黹���ǵģ�<br />
-3.��籦δ�黹���ǿ����𣿲��ᣡ<br />
-4.��רҵ����ѵָ�����ǵģ�<br />
-5.�����ż����𣿲��ߣ�<br />
-6.�����˽������<br /><br />
-����ģ��˽�������ͷ�񣬵�һʱ��ظ�</p>
-			</div>
-			<div class="col-md-3 content-top-grid">					
-				<small> </small>
-				<h3>�������10̨������</h3>
-				<p>ÿ����籦ÿ���2�Σ�ÿ�ν�3Сʱ<br />
-1����籦ÿ��׬��<br />2��x1Ԫx3Сʱ=6Ԫ<br />
-1̨������ÿ��׬��6x8=48Ԫ<br />
-10̨������ÿ��׬��<br />480Ԫ��<br />
-<br />
-����㽫������ŵ��θߵĵ꣬ÿСʱ�շ�2Ԫ3Ԫ......������뽫������</p>
-			</div>
-			<div class="col-md-3 content-top-grid">			
-				<big> </big>
-				<h3>������籦�д���</h3>
-				<p>1̨��ÿ��׬���٣���һ��<br />
-10̨��ÿ��׬��ǧ��������<br />
-100̨��ÿ��׬���򣬹�����������������ȫ��<br />
-1000̨��ÿ��׬��ʮ��ȫ�������Σ�������Ǯ<br />
-<br />
-һ����Զ�׬Ǯ�ĳ�籦���߻ر���Ŀ��3���µ�6���»ر���
-				</p>
+				</div>
+				<div class="arrow-grid">
+					<div class="arrow">
+						<a class="scroll" href="#header-nav" title="盒力充共享-向下图标"><span> </span></a>
+					</div>
+				</div>
 			</div>
 		</div>
-	</div>
-</div>
-<div id="xiudian_jieshao" class="content-about">
-	<div class="container">
-		<div class="content-about-text">
-			<h2>������ <small>����</small></h2>
-			<span> </span>
-		</div>
-		<div class="row">
-			<div class="col-md-6 content-about-grid-left">
-				<img src="static/picture/screen1.png" alt="�����乲��">
+		
+		<div id="header-nav" class="header-nav">
+			<div class="top-nav">
+				<nav>
+					<div class="logo">
+						<a href="#" title="盒力充共享"><img src="static/picture/logo2.png" alt="盒力充共享" /></a>
+					</div>
+					<span class="menu"></span>
+					<ul>
+						<li class="active"><a class="scroll" href="#home" title="盒力充共享">首页</a></li>
+						<li><a class="scroll" href="#xiudian_jieshao" title="盒力充介绍">盒力充介绍</a></li>
+						<li><a class="scroll" href="#xiudian_youshi" title="盒力充优势">盒力充优势</a></li>
+						<li><a class="scroll" href="#xiudian_changjing" title="盒力充场景">盒力充场景</a></li>
+						<li class="contact"><a class="scroll" href="#contact" title="盒力充招商经理">招商经理</a></li>
+						<li class="contact" style="float:right;position:absolute;right:10px;"><a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=979594976&site=qq&menu=yes"><img
+								 border="0" src="static/picture/qq.png" alt="加盟盒力充" title="加盟盒力充" /></a></li>
+						<div class="clearfix"> </div>
+					</ul>
+				</nav>
 			</div>
-			<div class="col-md-6 content-about-grid-right">
-				<p style="text-indent:30px;">������Ƽ����޹�˾��һ��רҵ���¸��¼����з����ǻ۳����罻Ϊ�����Ĵ�������ҵ�����Ǽ����׿Խ�ķ���Ʒ�ʡ�רҵ��ȫ�ļ�������ʵ����Ϊ��ͬȺ����û��ṩ���ø����ʵķ���</p>
-				<p style="text-indent:30px;">
-				��˾ӵ�а���רҵ�����ŶӾ�����ʱ���Ŭ���뷢չ��������һ����û�ʹ�á����ϴ��ڴ�ҵ���ڴ��µĹ�����籦���������䡣ȫ��ӵ��21���г���Ӫ�ֹ�˾��1000�����ϵ��г���Ӫ�Ŷӡ�</p>
-				<p style="text-indent:30px;">
-				�����䣬����һ�¾����硣�����䲻����һ��ʹ�÷��㡢���Ѹ�١�������Ӳ�Ĺ�����籦������һ��๦�ܡ�����;����ӯ�����罻����ƽ̨�����ܹ��Ͷ��ϵͳ+����Ӫ��ϵͳ+OA����ϵͳ+����������+���ã�������Ʒ�����г�Ǳ�������з�չͶ��Ǳ����</p>
-				<p style="text-indent:30px;">
-				��˾ӵ�а��˿ͷ��Ŷ�Ϊ��ȫ����ǰ�����С��ۺ�������Ƶ��ۺ������ϵ�����û�ʹ�÷��ġ���Ͷ���߸����ġ�</p>
-			</div>
-			<div class="clearfix"> </div>
-		</div>
-	</div>
-	<div class="content-about-bottom">
-		<div class="content-about-bottom-text">
-			<img src="static/picture/quote.png" alt="�����乲����籦">
-			<p>�����䣬һ����Զ�׬Ǯ�ĳ�籦</p>
-		</div>
-	</div>
-</div>
-<div id="xiudian_youshi" class="content-team">
-	<div class="container">
-		<div class="content-team-text">
-			<h2>������ <small>����</small></h2>
-			<span> </span>
-		</div>
-		<div class="arrows">
-			<div class="left-arrow"> </div>
-			<div class="right-arrow"> </div>
-			<div class="clearfix"> </div>
-		</div>
-		<div class="row">
 			<script>
-			$(document).ready(function() {
-			  $("#owl-demo1").owlCarousel({
-				items : 3,
-				lazyLoad : true,
-				autoPlay : true,
-				navigation : true,
-				navigationText :  true,
-				pagination : false,
-			  });
-			});
+				$("span.menu").click(function() {
+					$(".top-nav ul").slideToggle("slow", function() {});
+				});
 			</script>
-			<div id="owl-demo1" class="owl-carousel">
-				<div class="item">
-					<div class="team-left-grid">
-						<img src="static/picture/shanghushoudan.jpg" alt="һ���̻��յ�ϵͳ">
-						<h2>һ���̻��յ�ϵͳ</h2>
-						<p>�����������߳���ͬʱΪ����ṩ�������յ�ϵͳ�������������ȡ�</p>
+			<script src="static/js/myscript.js"> </script>
+		</div>
+		<div class="content">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3 content-top-grid">
+						<sub> </sub>
+						<h3>共享充电宝没市场？</h3>
+						<p>你能出门不带手机？<br />
+							你能忍住不玩手机？<br />
+							你能保障别人不会联系你？<br />
+							你能一直带充电宝、充电器？<br />
+							你能第一时间找到充电插座？<br />
+							商家能让你在吧台免费充？<br />
+							<br />
+							手机没电找盒力充，5秒借1秒还，无需人工看守指导，轻松借轻松还。</p>
 					</div>
-				</div>
-				<div class="item">
-					<div class="team-left-grid">
-						<img src="static/picture/shangjiayingxiao.jpg" alt="�����̼�Ӫ����Ӫ����ϵͳ">
-						<h2>�����̼�Ӫ����Ӫ����ϵͳ</h2>
-						<p>�Զ������ƹ㹦�ܣ����ֻ��򿪺�̨������ʱ��ؿ����������</p>
+					<div class="col-md-3 content-top-grid">
+						<span> </span>
+						<h3>盒力充快问快答</h3>
+						<p>1.充电费用可自己调吗？是的！<br />
+							2.充电宝支持异地归还吗？是的！<br />
+							3.充电宝未归还我们亏本吗？不会！<br />
+							4.有专业的培训指导吗？是的！<br />
+							5.加盟门槛高吗？不高！<br />
+							6.还能了解更多吗？<br /><br />
+							必须的！了解更多戳我头像，第一时间回复</p>
 					</div>
-				</div>
-				<div class="item">
-					<div class="team-left-grid">
-						<img src="static/picture/oa_ad.jpg" alt="����OA����ϵͳ+��׼���">
-						<h2>����OA����ϵͳ+��׼���</h2>
-						<p>������ϸһĿ��Ȼ�����ܷ�����֢��ҩ���ٹ������ĵ��̣������ݾ�׼���Ͷ����߹�洫���ʡ�</p>
+					<div class="col-md-3 content-top-grid">
+						<small> </small>
+						<h3>如果你有10台盒力充</h3>
+						<p>每个充电宝每天借2次，每次借3小时<br />
+							1个充电宝每天赚：<br />2次x1元x3小时=6元<br />
+							1台盒力充每天赚：6x8=48元<br />
+							10台盒力充每天赚：<br />480元！<br />
+							<br />
+							如果你将盒力充放档次高的店，每小时收费2元3元......你的收入将翻倍涨</p>
 					</div>
-				</div>
-				<div class="item">
-					<div class="team-left-grid">
-						<img src="static/picture/rentigongxue.jpg" alt="�ġ����幤ѧ���">
-						<h2>�ġ����幤ѧ���</h2>
-						<p>����ʱ�У�׷��ǰ�ؿƼ����м��ָУ�ʵ����������������ϡ�</p>
-					</div>
-				</div>
-				<div class="item">
-					<div class="team-left-grid">
-						<img src="static/picture/suijiesuihuan.jpg" alt="�塢����滹">
-						<h2>�塢����滹</h2>
-						<p>�����䣬����ݵĹ�����籦�� ֧����ؽ軹������</p>
-					</div>
-				</div>
-				<div class="item">
-					<div class="team-left-grid">
-						<img src="static/picture/anquankekao.jpg" alt="������ذ�ȫ�ɿ�">
-						<h2>������ذ�ȫ�ɿ�</h2>
-						<p>רҵ�ѿ�רҵ���ԣ���ذ�ȫ�ɿ���ʹ����ȼ���ϸ���ȫ��</p>
-					</div>
-				</div>
-				<div class="item">
-					<div class="team-left-grid">
-						<img src="static/picture/chongdiangengkuai.jpg" alt="�ߡ�������Ĺ�����籦">
-						<h2>�ߡ�������Ĺ�����籦</h2>
-						<p>���ɶ��ֱ�׼���Э�飨QC/PD2.0&3.0��FCP��AFC��SFCP��MTK PE+ 1.1&2.0 ��)��</p>
-					</div>
-				</div>
-				<div class="item">
-					<div class="team-left-grid">
-						<img src="static/picture/4gnet.jpg" alt="�ˡ�����4G���磬�ܾ��ӳ�">
-						<h2>�ˡ�����4G���磬�ܾ��ӳ�</h2>
-						<p>���ǲ���4G���磬��Դ����ʹ��2G���磬���糬ʱ�ʸߣ��豸���׶��ߣ�������4G���磬�豸�����ʺ��������ݴ����ʸߡ�</p>
-					</div>
-				</div>
-				<div class="item">
-					<div class="team-left-grid">
-						<img src="static/picture/zijinanquan.jpg" alt="�š��ʽ�ȫ�����ĳ��">
-						<h2>�š��ʽ�ȫ�����ĳ��</h2>
-						<p>���ܼ�ʱϵͳ�ܾ��ͻ����̻��������ף�����û����顣</p>
-					</div>
-				</div>
-				<div class="item">
-					<div class="team-left-grid">
-						<img src="static/picture/zhuliuchongdiantou.jpg" alt="ʮ��֧���ֻ��������ͷ">
-						<h2>ʮ��֧���ֻ��������ͷ</h2>
-						<p>����߷���ʹ���ʸߣ����ã������׻��� ֧��ƻ������׿��Type-c��</p>
-					</div>
-				</div>
-				<div class="item">
-					<div class="team-left-grid">
-						<img src="static/picture/dulijishuzhichi.jpg" alt="ʮһ����������֧��">
-						<h2>ʮһ����������֧��</h2>
-						<p>������ȫ����֪ʶ��Ȩ���豸�ṹ����ؽṹ�Ͳ�λ��ƶ�������ƣ��Ѿ��걨ר����</p>
-					</div>
-				</div>
-				<div class="item">
-					<div class="team-left-grid">
-						<img src="static/picture/suoyouchangjing.jpg" alt="ʮ����֧�����г���Ӧ��">
-						<h2>ʮ����֧�����г���Ӧ��</h2>
-						<p>�ͷ����������ưɣ��������̳���KTV����ӰԺ��������</p>
+					<div class="col-md-3 content-top-grid">
+						<big> </big>
+						<h3>共享充电宝招代理</h3>
+						<p>1台，每月赚几百，吃一顿<br />
+							10台，每月赚几千，供房贷<br />
+							100台，每月赚几万，供房贷，供车贷，养全家<br />
+							1000台，每月赚几十万，全世界旅游，坐等收钱<br />
+							<br />
+							一款会自动赚钱的充电宝。高回报项目，3个月到6个月回本。
+						</p>
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-</div>
-<div>
-	<div class="content-about-bottom">
-		<div class="content-services-bottom-text">
-			<img src="static/picture/service.png" alt="�����乲��">
-			<p class="bottom-text">�����䣬��ӭ������˾ʵ�ؿ��죡</p>
-		</div>
-	</div>
-</div>
-<link href="static/css/owl.carousel.css" rel="stylesheet">
-<script src="static/js/owl.carousel.js"></script>
-<script>
-$(document).ready(function() {
-  $("#owl-demo").owlCarousel({
-	items : 1,
-	lazyLoad : true,
-	autoPlay : true,
-	navigation : false,
-	navigationText :  false,
-	pagination : true,
-  });
-});
-</script>
-<div class="container">			
-	<div id="xiudian_changjing" class="portfolio">
-		<div class="port-text">
-		<h2>������ <small>����</small></h2>
-		<span class="folio"> </span>
-		</div>
-		<div  class="section" id="section-3">
-			<div id="portfoliolist">
-				<div class="portfolio card mix_all" data-cat="card" style="display: inline-block; opacity: 1;">
-					<div class="portfolio-wrapper wow bounceIn" data-wow-delay="0.4s">		
-						<a href="#" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim" title="�����乲��">
-						 <img src="static/picture/t1.jpg" class="img-responsive" alt="�����䳡��" /></a>
+		<div id="xiudian_jieshao" class="content-about">
+			<div class="container">
+				<div class="content-about-text">
+					<h2>盒力充 <small>介绍</small></h2>
+					<span> </span>
+				</div>
+				<div class="row">
+					<div class="col-md-6 content-about-grid-left">
+						<img src="static/picture/screen1.png" alt="盒力充共享">
 					</div>
-				</div>				
-				<div class="portfolio app mix_all" data-cat="app" style="display: inline-block; opacity: 1;">
-					<div class="portfolio-wrapper wow bounceIn" data-wow-delay="0.4s">		
-						<a href="#" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim" title="�����乲��">
-						 <img src="static/picture/t2.jpg" class="img-responsive" alt="�����䳡��" /></a>
+					<div class="col-md-6 content-about-grid-right">
+						<p style="text-indent:30px;">盒力充科技有限公司是一家专业从事高新技术研发和智慧场景社交为主导的创新型企业。我们坚持以卓越的服务品质、专业安全的技术服务实力，为不同群体的用户提供更好更优质的服务。</p>
+						<p style="text-indent:30px;">
+							公司拥有百人专业技术团队经过长时间的努力与发展终于研制一款方便用户使用、符合大众创业万众创新的共享充电宝——盒力充。全国拥有21个市场运营分公司，1000人以上的市场运营团队。</p>
+						<p style="text-indent:30px;">
+							盒力充，咻咻一下就满电。盒力充不仅是一款使用方便、充电迅速、质量过硬的共享充电宝，更是一款多功能、多用途、多盈利的社交场景平台，智能广告投放系统+智能营销系统+OA管理系统+共享互联网+经济，让这款产品更有市场潜力，更有发展投资潜力。</p>
+						<p style="text-indent:30px;">
+							公司拥有百人客服团队为您全程售前、售中、售后服务，完善的售后服务体系，让用户使用放心、让投资者更安心。</p>
 					</div>
-				</div>		
-				<div class="portfolio card mix_all" data-cat="card" style="display: inline-block; opacity: 1;">
-					<div class="portfolio-wrapper wow bounceIn" data-wow-delay="0.4s">		
-						<a href="#" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim" title="�����乲��">
-						 <img src="static/picture/t3.jpg" class="img-responsive" alt="�����䳡��" /></a>
-					</div>
-				</div>				
-				<div class="portfolio icon mix_all" data-cat="icon" style="display: inline-block; opacity: 1;">
-					<div class="portfolio-wrapper wow bounceIn" data-wow-delay="0.4s">		
-						<a href="#" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim" title="�����乲��">
-						 <img src="static/picture/t4.jpg" class="img-responsive" alt="�����䳡��" /></a>
-					</div>
-				</div>	
-				<div class="portfolio card mix_all" data-cat="card" style="display: inline-block; opacity: 1;">
-					<div class="portfolio-wrapper wow bounceIn" data-wow-delay="0.4s">		
-						<a href="#" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim" title="�����乲��">
-						 <img src="static/picture/t5.jpg" class="img-responsive" alt="�����䳡��" /></a>
-					</div>
-				</div>			
-				<div class="portfolio fun mix_all" data-cat="fun" style="display: inline-block; opacity: 1;">
-					<div class="portfolio-wrapper wow bounceIn" data-wow-delay="0.4s">		
-						<a href="#" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim" title="�����乲��">
-						 <img src="static/picture/t6.jpg" class="img-responsive" alt="�����䳡��" /></a>
-					</div>
-			  </div>	
-				<div class="portfolio icon mix_all" data-cat="icon" style="display: inline-block; opacity: 1;">
-					<div class="portfolio-wrapper wow bounceIn" data-wow-delay="0.4s">		
-						<a href="#" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim" title="�����乲��">
-						 <img src="static/picture/t7.jpg" class="img-responsive" alt="�����䳡��" /></a>
-					</div>
-				</div>	
-				<div class="portfolio card mix_all" data-cat="card" style="display: inline-block; opacity: 1;">
-					<div class="portfolio-wrapper wow bounceIn" data-wow-delay="0.4s">		
-						<a href="#" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim" title="�����乲��">
-						 <img src="static/picture/t8.jpg" class="img-responsive" alt="�����䳡��" /></a>
-					</div>
-				</div>			
-				<div class="portfolio fun mix_all" data-cat="fun" style="display: inline-block; opacity: 1;">
-					<div class="portfolio-wrapper wow bounceIn" data-wow-delay="0.4s">		
-						<a href="#" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim" title="�����乲��">
-						 <img src="static/picture/t9.jpg" class="img-responsive" alt="�����䳡��" /></a>
-					</div>
-			  </div>	
-			<div class="clearfix"></div>
-		</div>
-		</div>
-	</div> 
-	<script type="text/javascript" src="static/js/jquery.mixitup.min.js"></script>
-	<script type="text/javascript">
-	$(function () {
-		var filterList = {
-		init: function () {
-				$('#portfoliolist').mixitup({
-					targetSelector: '.portfolio',
-					filterSelector: '.filter',
-					effects: ['fade'],
-					easing: 'snap',
-				onMixEnd: filterList.hoverEffect()
-	});				
-	},
-		hoverEffect: function () {
-		$('#portfoliolist .portfolio').hover(
-			function () {
-			$(this).find('.label').stop().animate({bottom: 0}, 200, 'easeOutQuad');
-			$(this).find('img').stop().animate({top: -30}, 500, 'easeOutQuad');				
-			},
-					function () {
-						$(this).find('.label').stop().animate({bottom: -40}, 200, 'easeInQuad');
-						$(this).find('img').stop().animate({top: 0}, 300, 'easeOutQuad');								
-			}		
-		);				
-	}
-	};
-		filterList.init();
-	});	
-	</script>
-</div>
-<div id="contact" id="arrow" class="content-Get-in-touch">
-	<div class="container">
-		<div class="Get-in-touch-text">
-			<h2>������ <small>���̾���</small></h2>
-			<span class="portfolio"> </span>
-		</div>
-		<div class="Get-in-touch-grids">
-			<div class="col-md-6">
-				<img src="static/picture/keepecru.jpg" width="50%" style="float:right;" alt="���������̾���΢�Ŷ�ά��" />
-			</div>
-			<div class="col-md-6">
-				<div class="Get-in-touch-right-grid">
-					<p>�����䲻����һ��ʹ�÷��㡢���Ѹ�١�������Ӳ�Ĺ�����籦������һ��๦�ܡ�����;����ӯ�����罻����ƽ̨�����ܹ��Ͷ��ϵͳ+����Ӫ��ϵͳ+OA����ϵͳ+����������+���ã�������Ʒ�����г�Ǳ�������з�չͶ��Ǳ����</p>
-					<h4>��ϵ��ַ��<br />����Ȫ�ݽ�����ƽ��·�ں���������7��</h4>
-					<span>�ֻ��ţ�150-8035-1996</span>
-					<small>΢�źţ�15080351996</small>
+					<div class="clearfix"> </div>
 				</div>
 			</div>
-			<div class="clearfix"> </div>
+			<div class="content-about-bottom">
+				<div class="content-about-bottom-text">
+					<img src="static/picture/quote.png" alt="盒力充共享充电宝">
+					<p>盒力充，一款会自动赚钱的充电宝</p>
+				</div>
+			</div>
 		</div>
-		<div class="content-portfolio">
-			<a href="#" title="�����乲��"><img src="static/picture/logo.png" alt="�����乲��"></a>
-			<p>Copyright &copy; 2018. ���ź�����Ƽ����޹�˾.</p>
+		<div id="xiudian_youshi" class="content-team">
+			<div class="container">
+				<div class="content-team-text">
+					<h2>盒力充 <small>优势</small></h2>
+					<span> </span>
+				</div>
+				<div class="arrows">
+					<div class="left-arrow"> </div>
+					<div class="right-arrow"> </div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="row">
+					<script>
+						$(document).ready(function() {
+							$("#owl-demo1").owlCarousel({
+								items: 3,
+								lazyLoad: true,
+								autoPlay: true,
+								navigation: true,
+								navigationText: true,
+								pagination: false,
+							});
+						});
+					</script>
+					<div id="owl-demo1" class="owl-carousel">
+						<div class="item">
+							<div class="team-left-grid">
+								<img src="static/picture/shanghushoudan.jpg" alt="一、商户收单系统">
+								<h2>一、商户收单系统</h2>
+								<p>在满足消费者充电的同时为店家提供完整的收单系统，提高消费体验度。</p>
+							</div>
+						</div>
+						<div class="item">
+							<div class="team-left-grid">
+								<img src="static/picture/shangjiayingxiao.jpg" alt="二、商家营销运营管理系统">
+								<h2>二、商家营销运营管理系统</h2>
+								<p>自定义活动及推广功能，店家只需打开后台就能随时随地开启促销活动。</p>
+							</div>
+						</div>
+						<div class="item">
+							<div class="team-left-grid">
+								<img src="static/picture/oa_ad.jpg" alt="三、OA管理系统+精准广告">
+								<h2>三、OA管理系统+精准广告</h2>
+								<p>收入明细一目了然，智能分析对症下药快速管理您的店铺，大数据精准广告投放提高广告传播率。</p>
+							</div>
+						</div>
+						<div class="item">
+							<div class="team-left-grid">
+								<img src="static/picture/rentigongxue.jpg" alt="四、人体工学设计">
+								<h2>四、人体工学设计</h2>
+								<p>造型时尚，追求前沿科技美感及手感，实用与艺术的完美结合。</p>
+							</div>
+						</div>
+						<div class="item">
+							<div class="team-left-grid">
+								<img src="static/picture/suijiesuihuan.jpg" alt="五、随借随还">
+								<h2>五、随借随还</h2>
+								<p>盒力充，更便捷的共享充电宝， 支持异地借还操作。</p>
+							</div>
+						</div>
+						<div class="item">
+							<div class="team-left-grid">
+								<img src="static/picture/anquankekao.jpg" alt="六、电池安全可靠">
+								<h2>六、电池安全可靠</h2>
+								<p>专业把控专业测试，电池安全可靠，使用阻燃材料更安全。</p>
+							</div>
+						</div>
+						<div class="item">
+							<div class="team-left-grid">
+								<img src="static/picture/chongdiangengkuai.jpg" alt="七、充电更快的共享充电宝">
+								<h2>七、充电更快的共享充电宝</h2>
+								<p>集成多种标准快充协议（QC/PD2.0&3.0、FCP、AFC、SFCP、MTK PE+ 1.1&2.0 等)。</p>
+							</div>
+						</div>
+						<div class="item">
+							<div class="team-left-grid">
+								<img src="static/picture/4gnet.jpg" alt="八、采用4G网络，拒绝延迟">
+								<h2>八、采用4G网络，拒绝延迟</h2>
+								<p>我们采用4G网络，针对大多数使用2G网络，网络超时率高，设备容易断线，我们用4G网络，设备在线率和网络数据传输率高。</p>
+							</div>
+						</div>
+						<div class="item">
+							<div class="team-left-grid">
+								<img src="static/picture/zijinanquan.jpg" alt="九、资金安全，放心充电">
+								<h2>九、资金安全，放心充电</h2>
+								<p>智能计时系统拒绝客户与商户发生纠纷，提高用户体验。</p>
+							</div>
+						</div>
+						<div class="item">
+							<div class="team-left-grid">
+								<img src="static/picture/zhuliuchongdiantou.jpg" alt="十、支持手机主流充电头">
+								<h2>十、支持手机主流充电头</h2>
+								<p>充电线反复使用率高，耐用，不容易坏， 支持苹果，安卓，Type-c。</p>
+							</div>
+						</div>
+						<div class="item">
+							<div class="team-left-grid">
+								<img src="static/picture/dulijishuzhichi.jpg" alt="十一、独立技术支持">
+								<h2>十一、独立技术支持</h2>
+								<p>具有完全自主知识产权，设备结构、电池结构和槽位设计都自主设计，已经申报专利。</p>
+							</div>
+						</div>
+						<div class="item">
+							<div class="team-left-grid">
+								<img src="static/picture/suoyouchangjing.jpg" alt="十二、支持所有场景应用">
+								<h2>十二、支持所有场景应用</h2>
+								<p>客房，餐厅，酒吧，机场，商场，KTV，电影院，景区。</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
-	</div>
-</div>
-<script type="text/javascript">
-	$(document).ready(function() {
-		$().UItoTop({ easingType: 'easeOutQuart' });
-	});
-</script>
-<a href="#" id="toTop" style="display: block;" title="�����乲��-�ص�����"> <span id="toTopHover" style="opacity: 1;"> </span></a>
-</body>
+		<div>
+			<div class="content-about-bottom">
+				<div class="content-services-bottom-text">
+					<img src="static/picture/service.png" alt="盒力充共享">
+					<p class="bottom-text">盒力充，欢迎您来公司实地考察！</p>
+				</div>
+			</div>
+		</div>
+		<link href="static/css/owl.carousel.css" rel="stylesheet">
+		<script src="static/js/owl.carousel.js"></script>
+		<script>
+			$(document).ready(function() {
+				$("#owl-demo").owlCarousel({
+					items: 1,
+					lazyLoad: true,
+					autoPlay: true,
+					navigation: false,
+					navigationText: false,
+					pagination: true,
+				});
+			});
+		</script>
+		<div class="container">
+			<div id="xiudian_changjing" class="portfolio">
+				<div class="port-text">
+					<h2>盒力充 <small>场景</small></h2>
+					<span class="folio"> </span>
+				</div>
+				<div class="section" id="section-3">
+					<div id="portfoliolist">
+						<div class="portfolio card mix_all" data-cat="card" style="display: inline-block; opacity: 1;">
+							<div class="portfolio-wrapper wow bounceIn" data-wow-delay="0.4s">
+								<a href="#" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim" title="盒力充共享">
+									<img src="static/picture/t1.jpg" class="img-responsive" alt="盒力充场景" /></a>
+							</div>
+						</div>
+						<div class="portfolio app mix_all" data-cat="app" style="display: inline-block; opacity: 1;">
+							<div class="portfolio-wrapper wow bounceIn" data-wow-delay="0.4s">
+								<a href="#" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim" title="盒力充共享">
+									<img src="static/picture/t2.jpg" class="img-responsive" alt="盒力充场景" /></a>
+							</div>
+						</div>
+						<div class="portfolio card mix_all" data-cat="card" style="display: inline-block; opacity: 1;">
+							<div class="portfolio-wrapper wow bounceIn" data-wow-delay="0.4s">
+								<a href="#" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim" title="盒力充共享">
+									<img src="static/picture/t3.jpg" class="img-responsive" alt="盒力充场景" /></a>
+							</div>
+						</div>
+						<div class="portfolio icon mix_all" data-cat="icon" style="display: inline-block; opacity: 1;">
+							<div class="portfolio-wrapper wow bounceIn" data-wow-delay="0.4s">
+								<a href="#" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim" title="盒力充共享">
+									<img src="static/picture/t4.jpg" class="img-responsive" alt="盒力充场景" /></a>
+							</div>
+						</div>
+						<div class="portfolio card mix_all" data-cat="card" style="display: inline-block; opacity: 1;">
+							<div class="portfolio-wrapper wow bounceIn" data-wow-delay="0.4s">
+								<a href="#" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim" title="盒力充共享">
+									<img src="static/picture/t5.jpg" class="img-responsive" alt="盒力充场景" /></a>
+							</div>
+						</div>
+						<div class="portfolio fun mix_all" data-cat="fun" style="display: inline-block; opacity: 1;">
+							<div class="portfolio-wrapper wow bounceIn" data-wow-delay="0.4s">
+								<a href="#" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim" title="盒力充共享">
+									<img src="static/picture/t6.jpg" class="img-responsive" alt="盒力充场景" /></a>
+							</div>
+						</div>
+						<div class="portfolio icon mix_all" data-cat="icon" style="display: inline-block; opacity: 1;">
+							<div class="portfolio-wrapper wow bounceIn" data-wow-delay="0.4s">
+								<a href="#" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim" title="盒力充共享">
+									<img src="static/picture/t7.jpg" class="img-responsive" alt="盒力充场景" /></a>
+							</div>
+						</div>
+						<div class="portfolio card mix_all" data-cat="card" style="display: inline-block; opacity: 1;">
+							<div class="portfolio-wrapper wow bounceIn" data-wow-delay="0.4s">
+								<a href="#" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim" title="盒力充共享">
+									<img src="static/picture/t8.jpg" class="img-responsive" alt="盒力充场景" /></a>
+							</div>
+						</div>
+						<div class="portfolio fun mix_all" data-cat="fun" style="display: inline-block; opacity: 1;">
+							<div class="portfolio-wrapper wow bounceIn" data-wow-delay="0.4s">
+								<a href="#" class="b-link-stripe b-animate-go  thickbox play-icon popup-with-zoom-anim" title="盒力充共享">
+									<img src="static/picture/t9.jpg" class="img-responsive" alt="盒力充场景" /></a>
+							</div>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+				</div>
+			</div>
+			<script type="text/javascript" src="static/js/jquery.mixitup.min.js"></script>
+			<script type="text/javascript">
+				$(function() {
+					var filterList = {
+						init: function() {
+							$('#portfoliolist').mixitup({
+								targetSelector: '.portfolio',
+								filterSelector: '.filter',
+								effects: ['fade'],
+								easing: 'snap',
+								onMixEnd: filterList.hoverEffect()
+							});
+						},
+						hoverEffect: function() {
+							$('#portfoliolist .portfolio').hover(
+								function() {
+									$(this).find('.label').stop().animate({
+										bottom: 0
+									}, 200, 'easeOutQuad');
+									$(this).find('img').stop().animate({
+										top: -30
+									}, 500, 'easeOutQuad');
+								},
+								function() {
+									$(this).find('.label').stop().animate({
+										bottom: -40
+									}, 200, 'easeInQuad');
+									$(this).find('img').stop().animate({
+										top: 0
+									}, 300, 'easeOutQuad');
+								}
+							);
+						}
+					};
+					filterList.init();
+				});
+			</script>
+		</div>
+		<div id="contact" id="arrow" class="content-Get-in-touch">
+			<div class="container">
+				<!-- <div class="Get-in-touch-text">
+					<h2>盒力充 <small>招商经理</small></h2>
+					<span class="portfolio"> </span>
+				</div>
+				<div class="Get-in-touch-grids">
+					<div class="col-md-6">
+						<img src="static/picture/keepecru.jpg" width="50%" style="float:right;" alt="盒力充招商经理微信二维码" />
+					</div>
+					<div class="col-md-6">
+						<div class="Get-in-touch-right-grid">
+							<p>盒力充不仅是一款使用方便、充电迅速、质量过硬的共享充电宝，更是一款多功能、多用途、多盈利的社交场景平台，智能广告投放系统+智能营销系统+OA管理系统+共享互联网+经济，让这款产品更有市场潜力，更有发展投资潜力。</p>
+							<h4>联系地址：<br />福建泉州晋江和平中路冠宏商务中心7层</h4>
+							<span>手机号：xxxxxxxxx</span>
+							<small>微信号：xxxxxxxxx</small>
+						</div>
+					</div>
+					<div class="clearfix"> </div>
+				</div> -->
+				<div id="bottom">
+					<h1 id="title">盒力充新能源公司招商</h1>
+					<form id="helichong" class="layui-form layui-form-pane " action="http://127.0.0.1:80/post" method="post">
+						<div class="layui-form-item a">
+							<label class="layui-form-label">姓名</label>
+							<div class="layui-input-block">
+								<input type="username" name="username" required lay-verify="required" placeholder="请输入姓名" autocomplete="off"
+								 class="layui-input">
+							</div>
+						</div>
+				
+						<div class="layui-form-item a">
+							<label class="layui-form-label">手机号</label>
+							<div class="layui-input-block">
+								<input type="telephone" name="telephone" required lay-verify="required" placeholder="请输入手机号码" autocomplete="off"
+								 class="layui-input">
+							</div>
+						</div>
+				
+						<div class="layui-form-item a">
+							<label class="layui-form-label">公司名称</label>
+							<div class="layui-input-block">
+								<input type="company" name="company" required lay-verify="required" placeholder="请输入公司名称" autocomplete="off"
+								 class="layui-input">
+							</div>
+						</div>
+				
+						<div class="layui-form-item">
+							<div class="layui-input-block">
+								<button  class="layui-btn layui-btn-fluid" lay-submit lay-filter="formDemo" style="font-size: 18px; margin: 30px;">提交</button>
+							</div>
+						</div>
+						
+						<script type="application/javascript">
+						    //发送表单ajax请求
+						    $(':submit').on('click',function(){
+						        $.ajax({
+						            url:"http://127.0.0.1:80/post",
+						            type:"POST",
+									dataType : "json",
+						            data:JSON.stringify($('form').serializeObject()),
+						            contentType:"application/json",  //缺失会出现URL编码，无法转成json对象
+						            success:function(){
+						                alert("成功");
+						            },
+						        });
+								alert('123')
+						    });
+						
+						    /**
+						     * 自动将form表单封装成json对象
+						     */
+						    $.fn.serializeObject = function() {
+						        var o = {};
+						        var a = this.serializeArray();
+						        $.each(a, function() {
+						            if (o[this.name]) {
+						                if (!o[this.name].push) {
+						                    o[this.name] = [ o[this.name] ];
+						                }
+						                o[this.name].push(this.value || '');
+						            } else {
+						                o[this.name] = this.value || '';
+						            }
+						        });
+						        return o;
+								console.log(o)
+						    };
+						</script>
+					</form>
+				</div>
+				
+				
+				
+
+				
+				<div class="content-portfolio">
+					<a href="#" title="盒力充共享"><img src="static/picture/logo.png" alt="盒力充共享"></a>
+					<p>Copyright &copy; 2018. 厦门盒力充科技有限公司.</p>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$().UItoTop({
+					easingType: 'easeOutQuart'
+				});
+			});
+		</script>
+		<a href="#" id="toTop" style="display: block;" title="盒力充共享-回到顶部"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+	</body>
 </html>
