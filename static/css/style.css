@@ -68,7 +68,7 @@ ul {
 }
 
 .header-top {
-	background: url(../images/bg.jpg) no-repeat 0px 0px;
+	background: url(../images/wallhaven-73xpde.png) no-repeat 0px 0px;
 	background-size: cover;
 	-webkit-background-size: cover;
 	/* -moz-background-size: cover; */
@@ -209,7 +209,7 @@ ul {
 .about-nav,
 .about-nav3,
 .about-nav2 {
-	width: 32% !important;
+	width: 33% !important;
 }
 
 .about-nav5,
@@ -267,7 +267,7 @@ ul {
 	display: block;
 	font-family: 'Lato', sans-serif;
 	font-size: 16px;
-	margin-right: 3%;
+	margin-right: 0%;
 }
 
 .about-nav label:hover a {
@@ -282,7 +282,7 @@ ul {
 }
 
 .about-nav3 a {
-	padding-top: 3em;
+	padding-top: 5em;
 	display: inline-block;
 	margin-right: 32%;
 }
@@ -2295,7 +2295,7 @@ h6.b-animate.b-from-left.b-delay03 {
 	.about-nav4:hover,
 	.about-nav3:hover,
 	.about-nav2:hover,
-	.about-nav1:hover,
+	.about-nav1:hover,p
 	.about-nav:hover {
 		background-size: 90%;
 	}
